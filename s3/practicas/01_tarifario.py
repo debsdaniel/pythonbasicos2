@@ -21,9 +21,10 @@ if tarifa <= 0:
     mensaje = "Que Camine"
 else:
     mensaje = f"Tarifa: {tarifa}"
-    
+
 print("===== SERVICIO DE ENTREGA =====")
-print(f"Distancia: {distancia}")
+if tarifa > 0:
+    print(f"Distancia: {distancia}")
 print(mensaje)
 
 #if distancia <= 3:
