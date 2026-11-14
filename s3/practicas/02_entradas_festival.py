@@ -27,7 +27,7 @@ else:
 
     total = precio - descuento
 
-    print("\n===== FESTIVAL =====")
+    print("\n===== FESTIVAL =====\n")
     print(f"Categoría: {categoria}")
     print(f"Precio original: C$ {precio:.2f}")
     print(f"Descuento: C$ {descuento:.2f}")
