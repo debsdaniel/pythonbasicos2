@@ -1,3 +1,4 @@
+#### SLICING
 #Sintaxis:  lista[inicio:fin]
 
 productos = ["Arroz", "Frijoles", "Leche", "Aceite", "Azúcar", "Café"]
